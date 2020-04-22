@@ -11,6 +11,8 @@ const %T% = memo(props => {
   );
 });
 
+%T%.navigationOptions = () => ({});
+
 %T%.propTypes = {};
 
 const mapStateTopProps = createStructuredSelector({});
