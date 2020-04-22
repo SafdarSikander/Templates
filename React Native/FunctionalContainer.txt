@@ -1,0 +1,25 @@
+import React, {memo} from 'react';
+import {Text, View} from 'react-native';
+import {connect} from 'react-redux';
+import {createStructuredSelector} from 'reselect';
+
+const T = memo(props => {
+  return (
+    <View>
+      <Text>t</Text>
+    </View>
+  );
+});
+
+T.propTypes = {};
+
+const mapStateTopProps = createStructuredSelector({});
+
+const mapDispatchToProps = {};
+
+export default connect(
+  mapStateTopProps,
+  mapDispatchToProps,
+)(T);
+
+
