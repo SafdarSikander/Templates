@@ -2,14 +2,14 @@ import React, {memo} from 'react';
 import {Text, View} from 'react-native';
 import PropTypes from 'prop-types';
 
-const T = memo(props => {
+const %T% = memo(props => {
   return (
     <View>
-      <Text>t</Text>
+      <Text>%T%</Text>
     </View>
   );
 });
 
-T.propTypes = {};
+%T%.propTypes = {};
 
-export default T;
+export default %T%;
